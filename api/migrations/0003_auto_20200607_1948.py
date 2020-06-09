@@ -6,12 +6,9 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('api', '0002_auto_20200607_1755'),
+        ("api", "0002_auto_20200607_1755"),
     ]
 
     operations = [
-        migrations.AlterUniqueTogether(
-            name='follow',
-            unique_together=set(),
-        ),
+        migrations.AlterUniqueTogether(name="follow", unique_together=set(),),
     ]
